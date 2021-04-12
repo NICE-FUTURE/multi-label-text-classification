@@ -1,6 +1,8 @@
 # multi-label-text-classification
 【Demo】多标签文本分类
 
+*说明：数据集仅包含数十行示例数据*
+
 # 如何使用
 
 ### 数据预处理
@@ -25,13 +27,13 @@ python predict.py
 
 ### 模型结构
 
-<img src="E:\GitHub\multi-label-text-classification\images\model-structure.png" style="zoom:60%;" />
+<img src="./images/model-structure.png" style="zoom:60%;" />
 
 ### 训练过程（特征维度1500、数据量1w）
 
 |                      precision & recall                      |                             loss                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="E:\GitHub\multi-label-text-classification\images\history-evaluate-1604765655.7152944.png" style="zoom:33%;" /> | <img src="E:\GitHub\multi-label-text-classification\images\history-loss-1604765655.1696122.png" style="zoom:33%;" /> |
+| <img src="./images/history-evaluate-1604765655.7152944.png" style="zoom:33%;" /> | <img src="./images/history-loss-1604765655.1696122.png" style="zoom:33%;" /> |
 
 ### 更多的实验尝试
 
